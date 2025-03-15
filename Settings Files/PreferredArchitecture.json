@@ -1,0 +1,5 @@
+"installBehavior": {
+        "preferences": {
+            "architectures": ["x64"]
+        }
+    },
