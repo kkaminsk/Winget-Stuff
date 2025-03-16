@@ -8,7 +8,7 @@
         "defaultDownloadDirectory": "C:/Windows/Temp"
     },
 
-    "telemetry": {
+"telemetry": {
     "disable": true
 },
 
