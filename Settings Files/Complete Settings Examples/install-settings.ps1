@@ -16,6 +16,8 @@ if (Test-Path -Path $sourceFile) {
     Write-Host "Error: Source file not found at $sourceFile"
 }
 
-# Restart the Desktop App Installer
-Get-Process -Name DesktopAppInstaller -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
-Start-Process -FilePath "shell:AppsFolder\Microsoft.DesktopAppInstaller_cw5n1h2txyewy!App" -ErrorAction SilentlyContinue
+# Stop AppInstaller if open. Leaving commented out for now.
+# Get-Process -Name AppInstaller -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+
+# Removing, don't see this as necessary. AppInstaller does not run in the background.
+# Start-Process -FilePath explorer.exe shell:AppsFolder\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe!App -ErrorAction SilentlyContinue
