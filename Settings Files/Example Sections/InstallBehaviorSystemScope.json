@@ -1,5 +1,5 @@
 "installBehavior": {
     "preferences": {
-        "scope": "system"
+        "scope": [ "machine" ]
     }
 },
