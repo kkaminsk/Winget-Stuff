@@ -21,8 +21,6 @@
         "scope": "system",
         "installerTypes": ["msix"],
         "architectures": ["x64"],
-    "portablePackageMachineRoot": "C:/Program Files/Portable",    
-    "portablePackageUserRoot": "C:/Users/%username%/Packages"
     }
 }
    
