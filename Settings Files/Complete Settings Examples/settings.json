@@ -24,17 +24,15 @@
     "locale": [ "en-US", "en-CA" ],
     "installerTypes": ["msix"],
     "architectures": ["x64"],
-    "scope": ["machine"],
+    "scope": ["machine"]
 },
 
 "installBehavior": {
     "preferences": {
         "locale": [ "en-US", "en-CA" ],
-        "scope": "system",
+        "scope": "machine",
         "installerTypes": ["msix"],
         "architectures": ["x64"],
-    "portablePackageMachineRoot": "C:/Program Files/Portable",    
-    "portablePackageUserRoot": "C:/Users/%username%/Packages"
-    }
+}
 }
 }
